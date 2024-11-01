@@ -1,0 +1,506 @@
+/* Styles for max 1870px and min 1455px widths  */
+/*  */
+@media (max-width: 1870px) and (min-width: 1455px)
+{
+.shop_ct_adminbar.horizontal
+ {
+     width: calc(100% - 170px);
+ }
+}
+
+/*  Styles for max 1454px  */
+
+@media (max-width: 1454px)
+{
+    .shop_ct_adminbar_list > li:last-child
+    {
+        margin-right: 0px;
+
+    }
+    .shop_ct_adminbar_list > li:nth-last-child(2)
+    {
+        margin-right: 0px!important;
+    }
+
+}
+/*  Styles for max 1444px  */
+@media (max-width: 1444px)
+{
+    .shop_ct_adminbar_list > li:last-child
+    {
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/*  Styles for max 1434px  */
+
+@media (max-width: 1434px)
+{
+    .shop_ct_adminbar_list > li:nth-last-child(2)
+    {
+        margin-right: 0px!important;
+        padding-right: 0px;
+    }
+}
+
+/*  Styles for max 1414px  */
+
+@media (max-width: 1414px)
+{
+    .horizontal .shop_ct_adminbar_list li
+    {
+        padding-right: 6px;
+    }
+}
+
+/*  Styles for max 1400px  */
+
+@media (max-width: 1400px){
+    .horizontal .shop_ct_adminbar_list > li:nth-last-child(5)
+    {
+        padding-left: 10px;
+        margin-right: 0px;
+    }
+}
+
+/*  Styles for max 1200px  */
+
+@media (max-width: 1200px)
+{
+    .horizontal .shop_ct_adminbar_list > li:nth-last-child(2)
+    {
+        padding-right: 0px;
+    }
+}
+
+/*  Styles for max 1069px  */
+
+@media (max-width: 1069px)
+{
+    .horizontal .shop_ct_adminbar_list > li:last-child
+    {
+        margin-left: 25px;
+    }
+    .shop_ct_adminbar_list.horizontal > li:nth-last-child(2)
+    {
+        margin-left: 15px;
+    }
+
+}
+/*  Styles for max 1024px (Ipad Pro Screen Chrome) */
+@media (max-width: 1024px) {
+    .shop_ct_ajax_bind_html
+    {
+        padding-top: 1px;
+    }
+    .shop_ct_shop_ct_weight_unit > option
+    {
+        background-color: red;
+    }
+}
+
+/*  Styles for max 1003px  */
+
+@media (max-width: 1003px)
+{
+    .horizontal .shop_ct_adminbar_list > li:nth-last-child(5)
+    {
+        margin-left: 30px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:nth-last-child(4)
+    {
+        margin-left: 35px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:nth-last-child(2)
+    {
+        padding-left: 20px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:last-child
+    {
+        margin-left: 35px;
+    }
+
+}
+
+/*  Styles for max 970px  */
+
+@media (max-width: 970px)
+{
+    .horizontal .shop_ct_adminbar_list > li:last-child
+    {
+        margin-left: 120px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:last-child(2)
+    {
+       padding-left: 65px!important;
+    }
+    .horizontal .shop_ct_adminbar_list > li:last-child(3)
+    {
+        margin-left: 62px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:last-child(4)
+    {
+        padding-left: 0px;
+        padding-right: 65px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:last-child(5)
+    {
+        margin-left: 0px;
+        padding-left: 75px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:last-child(6)
+    {
+        margin-left: 60px!important;
+    }
+    #shop_ct_general_options_form
+    {
+        padding-top: 50px;
+    }
+}
+
+/*  Styles for max 768px Horizontal screen(Ipad Screen Chrome) */
+
+@media (max-width: 768px)
+{
+    .shop_ct_adminbar.horizontal {
+        top: 46px;
+        left: 90px;
+    }
+    .shop_ct_settings .shop_ct_section .control_container .control_title
+    {
+        font-size: 15px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:nth-last-child(5)
+    {
+        margin-left: 10px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:nth-last-child(4)
+    {
+        margin-left: 10px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:last-child
+    {
+        margin-left: 10px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:nth-last-child(3)
+    {
+        margin-left: 20px;
+    }
+    th.sortable a
+    {
+        overflow: visible;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    #inline-table
+    {
+        display: inline-block;
+    }
+
+    .manage-column.column-title.column-primary.sortable.asc
+    {
+        padding-left: 100px;
+        padding-bottom: 10px;
+    }
+    .manage-column.column-name.column-primary.sortable.asc
+    {
+        padding-bottom: 6px;
+    }
+    .shop_ct_settings .control_container .checkbox-block
+    {
+        width: 460px;
+        padding-top: 13px;
+    }
+    #shop_ct_bacs_accounts input[type='text']
+    {
+        width: 80px;
+    }
+    #wpbody-content #menu-settings-column
+    {
+        display: inline-block;
+        float: left;
+    }
+    #display_add_settings_div{
+        margin-left: 0px;
+    }
+    .shop_ct_popup_window .single_column .popup_section_submit .control_title
+    {
+        width: 27%;
+    }
+}
+/*  Styles for max 414px Horizontal screen(Iphone 6 Plus  Screen Chrome) */
+
+@media (max-width: 414px)
+{
+    .shop_ct_adminbar.horizontal
+    {
+        position: absolute;
+        width: 80%;
+        left: 50px;
+    }
+    .shop_ct_ajax_bind_html
+    {
+        padding-top: 30px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:nth-last-child(3)
+    {
+        margin-left: 60px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:nth-last-child(2)
+    {
+        padding-left: 25px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:nth-last-child(4)
+    {
+        margin-left: 20px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:first-child
+    {
+        margin-left: 13px;
+    }
+    .shop_ct_settings .select2-container--default .select2-selection--single
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .shop_ct_settings .shop_ct_section .control_container select
+    {
+        width: 94%;
+    }
+    .shop_ct_section .control_container input[type="text"]
+    {
+        width: 94%;
+    }
+    .shop_ct_section .control_container textarea
+    {
+        width: 100%;
+    }
+    .shop_ct_settings .control_container .checkbox-block label
+    {
+        margin-left: 120px;
+    }
+    .shop_ct_settings .control_container .checkbox-block li
+    {
+        margin-bottom: 30px;
+    }
+    .shop_ct_settings .control_container .checkbox-block span
+    {
+        margin-left: 150px;
+    }
+    .shop_ct_section .control_container input[type="email"]
+    {
+        width: 98%;
+    }
+    .shop_ct_settings .shop_ct_section  p
+    {
+        font-size: 12px;
+    }
+    th.sortable a span
+    {
+        font-size: 10px;
+    }
+    .widefat thead tr th
+    {
+        font-size: 10px;
+    }
+    .widefat tfoot tr th
+    {
+        font-size: 10px;
+    }
+    .horizontal .shop_ct_adminbar_list li.has_children:hover > ul.shop_ct_submenu
+    {
+        left: -30px;
+    }
+    .shop_ct_settings .control_container .checkbox-block label span
+    {
+        margin-left: 45px;
+    }
+    #shop_ct_bacs_accounts input[type='text']
+    {
+        width: 42px;
+    }
+    #display_add_settings_div h3
+    {
+        margin-bottom: 20px;
+    }
+    .shop_ct_popup_window .control_container input[type="checkbox"]
+    {
+        margin-left: 40px;
+    }
+
+}
+
+/*  Styles for max 375px Horizontal screen(Iphone 6 Screen Chrome) */
+
+@media (max-width: 375px)
+{
+    .horizontal .shop_ct_adminbar_list > li:first-child
+    {
+        margin-left: 40px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:nth-last-child(3)
+    {
+        margin-left: 10px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:last-child
+    {
+        margin-left: 110px;
+    }
+    .shop_ct_ajax_bind_html
+    {
+        padding-top: 80px;
+    }
+    .manage-column.column-name.column-primary.sortable.asc
+    {
+        padding-bottom: 10px;
+    }
+    .shop_ct_settings .control_container .checkbox-block
+    {
+        width: 400px;
+    }
+    #shop_ct_bacs_accounts input[type='text']
+    {
+        width: 36px;
+    }
+    .shop_ct_settings .select2-container--default .select2-selection--single
+    {
+        width: 100%;
+    }
+    .shop_ct_settings .control_container .checkbox-block label span
+    {
+        margin-left: 4px;
+    }
+}
+
+/*  Styles for max 320px Horizontal screen(Iphone 5 Screen Chrome) */
+
+@media (max-width: 320px)
+{
+    .horizontal .shop_ct_adminbar_list > li:last-child
+    {
+        margin-left: 25px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:first-child
+    {
+        margin-left: 25px;
+    }
+    .horizontal .shop_ct_adminbar_list > li:nth-last-child(2)
+    {
+        padding-left: 20px;
+    }
+    #inline-table
+    {
+        width: 308px;
+    }
+    .shop_ct_settings .control_container .checkbox-block label span
+    {
+        margin-left: 53px;
+    }
+    .shop_ct_settings .control_container .checkbox-block span.description
+    {
+        padding: 0px 38px;
+        line-height: 0px;
+    }
+    .shop_ct_settings .shop_ct_section h2
+    {
+        font-size: 25px;
+    }
+    .shop_ct_adminbar.horizontal
+    {
+        left: 30px;
+    }
+    #display_add_settings_div
+    {
+        margin-left: 42px;
+    }
+    #nav-menu-meta .accordion-section-content
+    {
+        width: 200px;
+        position: absolute;
+    }
+    #nav-menu-meta .accordion-section-content strong
+    {
+        margin-left: 35px;
+    }
+    .accordion-section-title.hndle::after
+    {
+        right: -2px;
+    }
+    #shop_ct_settings_email_table thead th:first-child
+    {
+        display: none;
+    }
+    #shop_ct_settings_email_table thead th:last-child
+    {
+        display: none;
+    }
+    #shop_ct_settings_email_table thead th
+    {
+        font-size: 11px;
+    }
+    #shop_ct_settings_email_table thead th:nth-last-child(3)
+    {
+        line-height: 15px;
+        padding-top: 10px;
+        padding-left: 11px;
+    }
+    .shop_ct_email_status_icon
+    {
+        font-size: 20px!important;
+    }
+    [data-id="cancelled_order"]
+    {
+        line-height: 10px;
+        font-size: 11px;
+    }
+    #shop_ct_settings_email_table tr
+    {
+        line-height: 20px;
+        font-size: 9px;
+    }
+    .shop_ct_settings .shop_ct_section h2
+    {
+        font-size: 19px;
+    }
+    #cb-select-all
+    {
+        width: 14px;
+        height: 14px;
+    }
+    #cb-select-0
+    {
+        width: 14px;
+        height: 14px;
+    }
+    #shop_ct_email_settings_form
+    {
+        padding-right: 96px;
+    }
+    #control-container-description p
+    {
+        font-size: 13px;
+    }
+    .shop_ct_popup_window .control_container input[type="checkbox"]
+    {
+        margin-left: 55px;
+    }
+    #popup-control-submit
+    {
+        margin-right: 75px;
+    }
+    #shop_ct_bacs_accounts input[type='text']
+    {
+        width: 29px;
+        height: 32px;
+    }
+    th#cb>th{
+        font-size: 8px;
+    }
+}
+
+/*  Styles for max 412px Horizontal screen(Nexus 6P and 5X Screen Chrome) */
+
+
+

@@ -1,0 +1,32 @@
+#shop_ct_checkouts_bacs_account_details {
+    width: 90%;
+}
+
+#shop_ct_checkouts_bacs_account_details_div {
+    margin-left: 20px;
+    display: block !important;
+}
+
+#shop_ct_checkouts_bacs_account_details .cb {
+    width: 5px;
+}
+
+#shop_ct_bacs_accounts {
+
+}
+
+#shop_ct_bacs_accounts th,
+#shop_ct_bacs_accounts td {
+    padding: 8px 0;
+}
+
+#shop_ct_bacs_accounts input[type='checkbox'],
+#shop_ct_bacs_accounts a.add {
+    margin:0 2px 0 8px;
+}
+
+#shop_ct_bacs_accounts input[type='text'] {
+    width:100px;
+    float:left;
+    margin-left: 2px;
+}

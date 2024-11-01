@@ -1,0 +1,49 @@
+#no_item_row {
+	display: none;
+}
+
+#order_product_table {
+	margin-top: 10px;
+}
+
+i.shop-ct-order-actions, i.edit-view-order {
+	font-size: 15px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+#order_items_table_header_checkbox {
+	margin-left: 0;
+}
+
+/*Start Popup*/
+.delete-order-item {
+	margin-left: 10px;
+	cursor:pointer;
+	color:#B71C1C;
+	font-size:22px;
+}
+
+.order-product-cost {
+	margin-left:10px;
+}
+
+.order-new-item-field {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.order-new-item-quantity {
+	width: 70px;
+}
+
+.order-items-list-empty {
+	padding-left:20px;
+}
+
+.order-items-list input[type=number] {
+	width: 60px;
+}
+
+/*End Popup*/

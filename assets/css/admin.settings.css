@@ -1,0 +1,472 @@
+.shop_ct_settings {
+    margin: 0 auto;
+    max-width: 90%;
+    margin-top: 70px;
+}
+
+.shop_ct_settings .shop_ct_wrapper{
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.05);
+    background-color: white;
+    padding: 25px;
+}
+
+.shop_ct_settings  .shop_ct_hidden_section {
+    display: none;
+}
+
+.shop_ct_settings  .shop_ct_hidden_section.active {
+    display: block;
+}
+
+.shop_ct_settings_navigation {
+    position: relative;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.shop_ct_settings_navigation li {
+    padding: 0 20px;
+
+    font-size: 20px;
+    line-height: 2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    color:#3aa3e3;
+    font-weight: 600;
+}
+
+.shop_ct_settings_navigation li.active {
+    background-color: #FFFFFF;
+    color: #807e7e;
+}
+
+.shop_ct_settings .shop_ct_section select{
+    background-image: url(../images/select-img.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px);
+    -webkit-appearance: none;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.shop_ct_settings #search {
+    background-image: none;
+}
+.shop_ct_settings .select2-container{
+    float: right;
+}
+.shop_ct_settings .select2-selection__rendered li{
+    height: 20px;
+    line-height: 20px;
+    margin-top: 13px;
+}
+.shop_ct_settings .selection:focus{
+    outline: none;
+}
+.shop_ct_settings .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #2780f8;
+}
+.shop_ct_settings .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    margin-top: 18px;
+    border-color: #2780f8;
+    background-color: rgba(33, 150, 243, 0.13);
+}
+.shop_ct_settings .select2-container--default.select2-container--focus .select2-selection--multiple  {
+    border-color: #2780f8;
+    box-shadow: 0 0 7px rgba(39,128,248,.15);
+}
+.shop_ct_settings .select2-container--default .select2-selection--single{
+    height: 43px;
+    background-image: url(../images/select-img.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px);
+    width: 100%;
+    float: right;
+}
+.shop_ct_settings .select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 43px;
+    font-size: 18px;
+    color: #555459;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+}
+.shop_ct_settings .select2-container--default .select2-selection--single .select2-selection__arrow b{
+    display: none;
+}
+.shop_ct_settings .select2-container--default .select2-search--dropdown .select2-search__field {
+    color: #555459;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+}
+.shop_ct_settings .shop_ct_section h2{
+    font-size: 26px;
+    text-align: left;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    color: #807e7e;
+}
+.shop_ct_settings .shop_ct_section .control_container{
+    line-height: 45px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.shop_ct_settings .shop_ct_section .control_container .control_title{
+    float: left;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+    color:#555459;
+}
+.shop_ct_settings .shop_ct_section  p{
+    font-size: 13px;
+    line-height: 1.5;
+    color: #8e8e8e;
+}
+.shop_ct_section .control_container input[type="color"],
+.shop_ct_section .control_container input[type="date"],
+.shop_ct_section .control_container input[type="datetime"],
+.shop_ct_section .control_container input[type="datetime-local"],
+.shop_ct_section .control_container input[type="email"],
+.shop_ct_section .control_container input[type="month"],
+.shop_ct_section .control_container input[type="number"],
+.shop_ct_section .control_container input[type="password"],
+.shop_ct_section .control_container input[type="search"],
+.shop_ct_section .control_container input[type="tel"],
+.shop_ct_section .control_container input[type="text"],
+.shop_ct_section .control_container input[type="time"],
+.shop_ct_section .control_container input[type="url"],
+.shop_ct_section .control_container input[type="week"] {
+    width: 494px;
+    height: 43px;
+    border: 1px solid #c4c4c4;
+    outline: none;
+    font-size: 16px !important;
+    border-radius: 4px;
+    float: right;
+    padding: 0 6px;
+    color: #555459;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+}
+.shop_ct_section .control_container input:active,
+.shop_ct_section .control_container input:focus,
+.shop_ct_section .control_container input[type="search"]:focus,
+.shop_ct_section .control_container input[type="search"]:active {
+    border-color: #2780f8;
+    box-shadow: 0 0 7px rgba(39,128,248,.15);
+}
+.shop_ct_settings .shop_ct_section .control_container input[type="search"]{
+    width: 493px;
+    height: 20px;
+}
+
+.shop_ct_section .control_container textarea {
+    width: 494px;
+    float: right;
+    height: 200px;
+    margin: 0;
+    border: 2px solid rgb(196, 196, 196);
+    background: rgb(252, 252, 252);
+    outline: none;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 0 6px;
+    color: rgb(85, 84, 89);
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+}
+
+.shop_ct_section .control_container textarea:focus {
+    border-color: #2780f8;
+    box-shadow: 0 0 7px rgba(39,128,248,.15);
+}
+
+.shop_ct_settings .shop_ct_section .control_container select{
+    width: 494px;
+    height: 43px;
+    border: 1px solid #c4c4c4;
+    outline:none;
+    font-size: 18px;
+    border-radius: 4px;
+    float: right;
+    color: #555459;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+}
+.shop_ct_settings .shop_ct_section .shop_ct_button{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #449d44;
+    padding: 0 20px;
+    height: 40px;
+    float: right;
+    margin-top: 50px;
+    line-height: 40px;
+    border-radius: 3px;
+    box-shadow: 4px 4px 20px 3px rgba(219,215,215,0.86);
+}
+
+.shop_ct_settings .shop_ct_section .shop_ct_button:hover{
+    background-color: #398439;
+}
+
+.shop_ct_settings  .o-divider {
+    border: 0;
+    margin: 20px;
+    height: 1px;
+    background: #656D78;
+}
+
+/**
+ * Component: Button
+ * --------------------------------------------------
+ */
+.shop_ct_settings .c-button {
+    -webkit-appearance: none;
+    position: relative;
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 0;
+    vertical-align: middle;
+    overflow: visible;
+    color: #fff;
+    font: inherit;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+    background: transparent;
+    border: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: 4px 4px 20px 3px rgba(219,215,215,0.86);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.1s ease;
+}
+.shop_ct_settings .c-button:hover, .c-button:focus {
+    outline: 0;
+    text-decoration: none;
+}
+.shop_ct_settings .c-button:not(:disabled) {
+    cursor: pointer;
+}
+
+/**
+ * Mixin: Button Modifier
+ * --------------------------------------------------
+ */
+/**
+ * Component: Button
+ * Modifier: Purple
+ * --------------------------------------------------
+ */
+.shop_ct_settings .btn-primary {
+    background-color: #3071a9;
+    border-radius: 3px;
+}
+.shop_ct_settings .btn-primary:hover {
+    background: #285e8e;
+}
+.shop_ct_settings .btn-default{
+    background-color: #c9302c;
+    border-radius: 3px;
+}
+.shop_ct_settings .btn-default:hover{
+    background-color: #ac2925;
+}
+.shop_ct_settings .btn-success{
+    background-color: #449d44;
+    border-radius: 3px;
+}
+.shop_ct_settings .btn-success:hover{
+    background-color: #398439;
+}
+.shop_ct_settings .btn-info{
+    background-color: #31b0d5;
+    border-radius: 3px;
+}
+.shop_ct_settings .btn-info:hover{
+    background-color: #269abc;
+}
+.shop_ct_settings .btn-warning{
+    background-color: #ec971f;
+    border-radius: 3px;
+}
+.shop_ct_settings .btn-warning:hover{
+    background-color: #d58512;
+}
+.shop_ct_settings .c-ripple {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: transparent;
+}
+
+.shop_ct_settings .c-ripple__circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.25);
+}
+.shop_ct_settings .c-ripple.is-active .c-ripple__circle {
+    -webkit-animation: a-ripple .2s ease-in;
+    animation: a-ripple .2s ease-in;
+}
+
+/**
+ * Animation: Ripple
+ * --------------------------------------------------
+ */
+@-webkit-keyframes a-ripple {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        padding-bottom: 200%;
+        opacity: 0;
+    }
+}
+@keyframes a-ripple {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        padding-bottom: 200%;
+        opacity: 0;
+    }
+}
+
+.shop_ct_settings .control_container .checkbox-block {
+    float: right;
+    width: 494px;
+}
+.shop_ct_settings .control_container:not(.control-container-account_details) input[type="checkbox"] {
+    display: none;
+}
+.shop_ct_settings .control_container .checkbox-block li{
+    margin-bottom: 40px;
+}
+.shop_ct_settings .control_container .checkbox-block label{
+    line-height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 0px;
+    font-family: 'Roboto',sans-serif;
+}
+.shop_ct_settings .control_container .checkbox-block label:before{
+    content: '✔';
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    opacity: 0;
+    transition: all 0.1s linear;
+}
+.shop_ct_settings .control_container .checkbox-block label span{
+    width: 20px;
+    height: 20px;
+    display: block;
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+    box-shadow: 0px 0px 21px -6px rgba(0,0,0,0.15);
+    float: left;
+    margin-right: 20px;
+    transition: all 0.2s linear;
+}
+.shop_ct_settings .control_container .checkbox-block input[type="checkbox"]:checked ~ label:before{
+    opacity: 1;
+    color: white;
+    transition: all 0.15s linear;
+}
+.shop_ct_settings .control_container .checkbox-block input[type="checkbox"]:checked ~ label .icon{
+    background-color: rgb(33, 150, 243);
+    border-color: rgb(33, 150, 243);
+}
+.shop_ct_settings .control_container .switch_blcok{
+    float: left;
+    width: 200px;
+    margin-top: 70px;
+}
+.shop_ct_settings .control_container .checkbox-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.shop_ct_settings .control_container .radio-block {
+    width: 494px;
+    float: right;
+}
+.shop_ct_settings .control_container .radio-block input{
+    display: none;
+}
+.shop_ct_settings .control_container .radio-block ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+.shop_ct_settings .control_container .radio-block label {
+    position: relative;
+    display: inline-block;
+    line-height: 22px;
+    cursor: pointer;
+    font-family: 'Roboto',sans-serif;
+}
+.shop_ct_settings .control_container .radio-block label .radicon{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 21px -6px rgba(0,0,0,0.15);
+}
+.shop_ct_settings .control_container .radio-block label:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #0994f0;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    opacity: 0;
+}
+.shop_ct_settings .control_container .radio-block input[type="radio"]:checked ~ label:before{
+    opacity: 1;
+
+}
+
+.shop_ct_settings .submit_block {
+    margin-top: 15px;
+    text-align: right;
+}

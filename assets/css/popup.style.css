@@ -1,0 +1,176 @@
+.shop_ct_window_overlay {
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	background: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.shop-ct-popup-outer-window {
+	position: fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index: 159899;
+}
+
+.shop_ct_popup_window {
+	position: fixed;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width:80%;
+	min-width:400px;
+	max-width: 960px;
+	height:calc(100% - 70px);
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	margin: auto;
+}
+
+.shop_ct_popup_window_inner {
+	width:100%;
+	height:100%;
+	background: #fafafa;
+	border-radius: 3px;
+	overflow: hidden;
+	-webkit-box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
+	box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
+	-webkit-animation-duration:.7s;
+	-moz-animation-duration:.7s;
+	animation-duration:.7s;
+}
+
+.shop_ct_popup_window .shop_ct_window_title_block {
+	background: #f64444;
+	height: 40px;
+	line-height: 40px;
+}
+
+.shop_ct_popup_window .shop_ct_window_title_block .shop_ct_window_title {
+	float: left;
+	font-size: 19px;
+	line-height: 40px;
+	overflow: hidden;
+	padding: 0 29px 0 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: calc( 100% - 39px );
+	color: #fff;
+}
+
+.shop_ct_popup_window .shop_ct_window_title_block .shop_ct_window_close_btn {
+	float:right;
+}
+
+.shop_ct_popup_window .shop_ct_window_title_block .shop_ct_window_close_btn .close_icon {
+	position: absolute;
+    top: 0;
+    right: 0;
+	width: 40px;
+    height: 40px;
+	color: #fff;
+    text-align: center;
+    line-height: 40px;
+	cursor:pointer;
+	font-size: 30px;
+	transition: all .15s linear;
+}
+
+.shop_ct_popup_window .shop_ct_window_title_block .shop_ct_window_close_btn .close_icon:hover {
+	color: #f1f1f1;
+}
+
+.shop_ct_popup_window .shop_ct_window_title_block .shop_ct_window_close_btn .close_icon:focus,
+.shop_ct_popup_window .shop_ct_window_title_block .shop_ct_window_close_btn .close_icon:active {
+	transform: scale(0.7);
+}
+
+.shop_ct_popup_window .shop_ct_window_content {
+	position: relative;
+	clear: both;
+	height: calc(100% - 40px);
+    text-align: left;
+    line-height: 1.4em;
+	overflow: auto;
+}
+
+
+.shop-ct-popup-content {
+	padding: 22px 15px 15px 15px;
+	max-height: calc(100% - 87px);
+	overflow: auto;
+}
+
+.shop-ct-popup-actions {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding:0 15px;
+	height: 50px;
+}
+
+.shop-ct-popup-actions .spinner {
+	float: initial;
+}
+
+.shop-ct-toastr-wrap {
+	top: 0;
+	right: 0;
+	position: fixed;
+	z-index: 999999999;
+	padding:4em;
+	pointer-events: none;
+}
+
+.shop-ct-toastr {
+	margin-bottom: 20px !important;
+	background: #4CAF50 !important;
+	color: #fff !important;
+	padding: 20px 24px !important;
+	border-radius: 2px !important;
+	border:none !important;
+	min-width: 216px;
+	max-width: 426px;
+	width: auto;
+	transition: all .3s ease;
+	animation: shop-ct-show-toastr .15s ease;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight:500;
+}
+
+.shop-ct-toastr.error {
+	background: #F44336 !important;
+	color:#fff !important;
+}
+
+.shop-ct-close-toastr {
+	animation: shop-ct-close-toastr .3s ease;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes shop-ct-show-toastr {
+	from {transform: translateX(200%);opacity:0}
+	to {transform: translateX(0%);opacity:1}
+}
+
+/* Standard syntax */
+@keyframes shop-ct-show-toastr {
+	from {transform: translateX(200%);opacity:0}
+	to {transform: translateX(0%);opacity:1}
+}
+
+/* Standard syntax */
+@keyframes shop-ct-close-toastr {
+	from {transform: translateX(0%);opacity:1}
+	to {transform: translateX(200%);opacity:0}
+}

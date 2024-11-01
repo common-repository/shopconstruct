@@ -1,0 +1,1 @@
+<h2><?php _e('Your shopping cart is empty','shop_ct'); ?></h2>

@@ -1,0 +1,131 @@
+#menu-settings-column{
+	margin: 0 !important;
+	width: 20% !important;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.accordion-section-content {
+	display: none;
+ 	transition: width 2s;
+}
+
+#menu-settings-column {
+	display: inline
+}
+
+#display_add_settings_div {
+	display: inline-block;
+	padding-top: 13px;
+	margin-left: 50px;
+}
+
+.outer-border {
+	margin: 0;
+}
+
+#display_add_settings_div {
+	width: 60%;
+	padding:0;
+}
+
+#display_add_settings_div h3 {
+	display: inline-block;
+    margin: 5px 0 0 0;
+}
+
+.display_settings_save_divs {
+	margin: 0;
+	padding: 10px 0 10px 10px;
+	background-color: #F5F5F5;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	overflow: hidden;
+}
+
+.display_settings_save_divs input {
+	float: right !important;
+    display: inline-block !important;
+    margin-right: 10px !important;
+}
+
+#display_settings_div {
+	min-height: 70px;
+	padding-left: 10px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+#display_settings_div p{
+	margin: 0;
+	padding: 15px 0;
+}
+
+#display_settings_list>li {
+	border: 1px solid #dfdfdf;
+    position: relative;
+    padding: 0;
+    height: auto;
+    min-height: 20px;
+    width: 382px;
+    line-height: 30px;
+    overflow: hidden;
+    word-wrap: break-word;
+    background: #fafafa;
+    color: #23282d;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.open_display_settings{
+	float: right;
+}
+
+
+#display_settings_list i{
+	float: right;
+    line-height: 31px;
+    margin-left: 5px;
+}
+
+.open_display_settings:hover{
+	cursor: pointer;
+}
+
+.post-item-settings {
+	display: none;
+    padding: 10px 0;
+	margin:0;
+    background: #FFFFFF;
+}
+
+.post-item-settings ul{
+	padding-left: 15px;
+}
+ 
+.post_item_titles {
+	padding: 10px 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.shop_all_products,
+.shop_all_categories {
+	display: block;
+}
+.delete_shop_page {
+    color: #a00;
+    text-decoration: none;
+}
+
+.view_shop_page {
+	color: #0073aa;
+    text-decoration: none;
+}
+
+.delete_shop_page:hover {
+	color: red;
+}
+
+.display_settings_single_product,
+.display_settings_single_category,
+.display_settings_show {
+	width: 95%;
+}

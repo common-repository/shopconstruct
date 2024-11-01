@@ -1,0 +1,177 @@
+#shop-ct\S+_ {
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+#shop-ct-popup-section-author_section span.control_title {
+    display: inline-block;
+    width: 70px;
+}
+
+#shop-ct-popup-section-author_section input.popup-control-value,
+#shop-ct-popup-section-author_section textarea {
+    width: 90%;
+}
+
+#control-container-submitted_on {
+    margin: auto 2px;
+}
+
+#submitted_on > p {
+    display: inline-block;
+    margin: 1px 9px;
+}
+
+#control-container-status_radio label:nth-child(2) {
+    color: #008000;
+}
+
+#control-container-status_radio label:nth-child(3) {
+    color: #FFA500;
+}
+
+#control-container-status_radio label:nth-child(4) {
+    color: #FF0000;
+}
+
+#control-container-status_radio label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#in_response_to a.review_popup_link {
+    font-weight: 600;
+}
+
+#move_review_to_trash {
+    color: #a00;
+    text-decoration: none;
+}
+
+#move_review_to_trash:hover {
+    color: #FF0000;
+}
+
+#control-container-move_to_trash {
+    display: inline-block;
+}
+
+#control-container-update_button {
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+
+h2.review_section_title {
+    font-size: 15px;
+}
+
+#control-container-author_section_title {
+    padding: 0 7px;
+    border-bottom: 1px solid #eee;
+    margin: 5px auto;
+}
+
+#control-container-status_section_title {
+    padding: 3px 12px;
+    /*border-bottom: 1px solid #eee;*/
+    margin: 1px 0 auto auto;
+}
+
+#shop-ct-popup-section-trash_update_button {
+    padding: 18px 11px;
+    clear: both;
+    border-top: 1px solid #ddd;
+    background: #f5f5f5;
+    margin-top: -23px;
+}
+
+#shop-ct-popup-section-status_section {
+    background-color: #fff;
+}
+
+#control-container-submitted_on {
+    margin: 0 2px;
+    padding: 5px;
+}
+
+#control-container-in_response_to {
+    padding: 5px;
+}
+
+.reviews_table_action {
+    font-size:15px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.fa.fa-spinner.reviews_table_action:hover {
+    color: #d98500;
+}
+
+.fa.fa-trash.reviews_table_action:hover {
+    color: #a00;
+}
+
+.fa.fa-pencil-square-o.reviews_table_action:hover ,
+.fa.fa-reply.reviews_table_action:hover {
+    color: #0073aa;
+}
+
+.fa.fa-check.reviews_table_action:hover {
+    color: #008000;
+}
+
+.fa.fa-shield.reviews_table_action.spam:hover {
+    color: #50b500
+}
+
+#shop_ct_review_form .column-author {
+    font-weight: 700;
+    width: 17%;
+}
+
+#shop_ct_review_form .column-table_actions,
+#shop_ct_review_form .column-submitted_on {
+    width: 10%;
+}
+
+#shop_ct_review_form .column-in_response_to {
+    width: 17%;
+}
+
+#shop_ct_review_form tbody td {
+    height: 60px;
+}
+
+#control-container-message .control_title {
+    vertical-align: top;
+}
+
+#control-container-add_button {
+    padding: 16px 9px 10px 0;
+    text-align: right;
+    background: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+.single_setting_block {
+    margin: 10px auto;
+}
+
+#shop_ct_shipping_main_settings_all_countries {
+    width: 228px;
+    margin: 10px auto;
+}
+
+#shop_ct_shipping_main_settings_country_params {
+    margin-bottom: 4px;
+}
+
+#shop_ct_shipping_main_settings_spinner {
+    margin: 4px 10px 0;
+    float: left;
+}
